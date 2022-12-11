@@ -18,8 +18,7 @@ export function Logomark(props: logomarkProps) {
     </svg>
   )
 }
-
-export function Logo(props: classNames) {
+function Logo(props: classNames) {
   return (
     <svg viewBox="0 0 106 40" aria-hidden="true" {...props}>
       <Logomark width="40" height="40" className="fill-orange-500" />
@@ -30,3 +29,5 @@ export function Logo(props: classNames) {
     </svg>
   )
 }
+
+export default Logo;
